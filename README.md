@@ -1,4 +1,4 @@
-# devtestcube-blog
+# devtestcube
 
 ## Project setup
 ```
