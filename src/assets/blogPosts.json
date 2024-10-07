@@ -3,12 +3,14 @@
       "id": 1,
       "title": "Getting Started with Vue 3",
       "excerpt": "Learn how to set up a new Vue 3 project and explore its key features.",
-      "image": "/image.png"
+      "image": "/image.png",
+      "markdownFile": "getting-started-vue3.md"
     },
     {
       "id": 2,
       "title": "Vue Router Basics",
       "excerpt": "Understand how to implement routing in your Vue.js applications.",
-      "image": "/image.png"
+      "image": "/image.png",
+      "markdownFile": "vue-router-basics.md"
     }
   ]

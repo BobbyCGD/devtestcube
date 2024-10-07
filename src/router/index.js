@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import BlogFrontPage from '@/components/BlogFrontPage.vue'
+import BlogPost from '@/components/BlogPost.vue'
 
 const routes = [
   {
@@ -7,7 +8,11 @@ const routes = [
     name: 'Home',
     component: BlogFrontPage
   },
-  // Add more routes here as needed
+  {
+    path: '/post/:id',
+    name: 'BlogPost',
+    component: BlogPost
+  }
 ]
 
 const router = createRouter({
